@@ -43,46 +43,6 @@ janmonth.click()
 date = bridge.find_element(By.XPATH,"//td[text() = '17']")
 date.click()
 
-
-
-# mobilenumber = bridge.find_element(By.ID,'userNumber')
-# mobilenumber.send_keys("1234567890")
-
-# dob = bridge.find_element(By.ID,'dateOfBirthInput')
-# dob.click()
-
-# month = Select(bridge.find_element(By.CLASS_NAME,'react-datepicker__month-select'))
-# month.select_by_visible_text("April")
-
-# year = Select(bridge.find_element(By.CLASS_NAME,'react-datepicker__year-select')) 
-# year.select_by_visible_text("2000")
-
-# date = bridge.find_element(By.CSS_SELECTOR, ".react-datepicker__day.react-datepicker__day--015")
-# date.click()
-
-# subject = bridge.find_element(By.ID, "subjectsInput")
-# subject.send_keys("Computer Science")
-# time.sleep(2)
-# # subjects = bridge.find_element(By.XPATH,"//div[text() = 'Computer Science']")# subjects.click()
-
-# hobbies = bridge.find_element(By.XPATH,"//label[text() = 'Music']")
-# hobbies.click()
-
-# hobbies1 = bridge.find_element(By.XPATH,"//label[text() = 'Sports']")
-# hobbies1.click()
-
-# file = bridge.find_element(By.ID,'uploadPicture')
-# file.send_keys("C:\\Users\\chara\\Downloads\\hall_ticket (1).pdf")
-
-# address = bridge.find_element(By.ID,'currentAddress')
-# address.send_keys('floor no :- 5 , kapil kaveri hub, nanakramguda')
-
-# options = bridge.find_element(By.XPATH,"//div[text() = 'Uttar Pradesh']")
-# options.click()
-
-# city = bridge.find_element(By.XPATH,"//div[text() = 'Agra']")
-# city.click()
-
 submitBtn = bridge.find_element(By.XPATH,"//button[@type = 'submit']")
 submitBtn.click()
 
