@@ -6,6 +6,7 @@ import time
 bridge = webdriver.Chrome()
 bridge.implicitly_wait(20)
 bridge.get("https://www.selenium.dev/selenium/web/web-form.html")
+bridge.maximize_window()
 
 inputtext = bridge.find_element(By.CSS_SELECTOR,'#my-text-id')
 inputtext.send_keys("automation testing")
